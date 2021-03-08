@@ -1,0 +1,7 @@
+type RateSheet{
+    effective_start_date: String
+    effective_end_date: String
+    fixing_date: String
+    rate_sheet: [Rate]
+    #errors: Error
+}

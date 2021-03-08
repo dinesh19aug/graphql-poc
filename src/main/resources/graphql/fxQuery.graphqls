@@ -1,0 +1,12 @@
+type Query{
+    ratesheet(filter: BuyOrSellFilter): RateSheet
+    bankaccount(id: ID):BankAccount
+}
+
+input BuyOrSellFilter{
+    buyOrSell: String
+}
+
+schema {
+    query: Query
+}

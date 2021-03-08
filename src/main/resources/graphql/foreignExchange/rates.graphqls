@@ -1,0 +1,17 @@
+type Rate{
+    rate_type: String
+    receiving_method: String
+    buy_or_sell: BuyOrSell
+    base_currency_code: String
+    contra_currency_code: String
+    exchange_rate: Float
+    exchange_rate_precision: Int
+    exchange_rate_conversion_rule: String
+    value_date_type: String
+    maximum_amount: Float
+
+}
+
+
+
+
